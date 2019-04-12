@@ -4,6 +4,7 @@
   "description": "A collection of javascript algorithms, patterns, and techniques",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint \"src/**\"",
     "test": "jest"
   },
   "repository": {
@@ -24,5 +25,8 @@
   "homepage": "https://github.com/nas5w/javascript-patterns#readme",
   "dependencies": {
     "jest": "^24.7.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0"
   }
 }

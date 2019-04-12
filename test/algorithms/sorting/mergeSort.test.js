@@ -1,4 +1,4 @@
-const mergeSort = require("../../../algorithms/sorting/mergeSort");
+const mergeSort = require("../../../src/algorithms/sorting/mergeSort");
 const compareArrays = require("../../helpers/compareArrays");
 
 test("Sorted array remains in order", () => {
