@@ -1,0 +1,28 @@
+{
+  "name": "javascript-patterns",
+  "version": "0.0.1",
+  "description": "A collection of javascript algorithms, patterns, and techniques",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nas5w/javascript-patterns.git"
+  },
+  "keywords": [
+    "javascript",
+    "algorithms",
+    "techniques",
+    "patterns"
+  ],
+  "author": "Nick Scialli",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nas5w/javascript-patterns/issues"
+  },
+  "homepage": "https://github.com/nas5w/javascript-patterns#readme",
+  "dependencies": {
+    "jest": "^24.7.1"
+  }
+}
