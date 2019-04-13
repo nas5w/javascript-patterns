@@ -32,7 +32,10 @@
   },
   "jest": {
     "coverageDirectory": "./coverage/",
-    "collectCoverage": true
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "./src/**"
+    ]
   },
   "husky": {
     "hooks": {
