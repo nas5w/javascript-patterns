@@ -1,4 +1,4 @@
-function quickSort(arr, first, last){
+function quickSort(arr, first = 0, last = arr.length - 1){
     let pivot, partitionIndex;
 
     if (first < last){ // Only run if array is more than one item
