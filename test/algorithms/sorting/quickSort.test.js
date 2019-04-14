@@ -27,10 +27,10 @@ describe('Quick Sort algorithm', () => {
         const arr2 = quickSort(arr1);
         expect(compareArrays(arr2, [-20, -15, -10, -5, -1])).toBe(true);
     });
-    // xit('Does not mutate original array', () => {
-    //     const arr1 = [4, 2, 5, 1, 3];
-    //     const arr2 = quickSort(arr1);
-    //     expect(compareArrays(arr2, [1, 2, 3, 4, 5])).toBe(true);
-    //     expect(compareArrays(arr1, [4, 2, 5, 1, 3])).toBe(true);
-    // });
+    xit('Does not mutate original array', () => {
+        const arr1 = [4, 2, 5, 1, 3];
+        const arr2 = quickSort(arr1);
+        expect(compareArrays(arr2, [1, 2, 3, 4, 5])).toBe(true);
+        expect(compareArrays(arr1, [4, 2, 5, 1, 3])).toBe(true);
+    });
 });
