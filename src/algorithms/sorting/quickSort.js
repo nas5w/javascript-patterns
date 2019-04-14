@@ -1,15 +1,16 @@
 function quickSort(arr, first = 0, last = arr.length - 1){
     let pivot, partitionIndex;
+    const duplicateArray = [...arr]; // Create a new array to avoid mutating original array
 
     if (first < last){ // Only run if array is more than one item
         pivot = last; // Setting our pivot to always be the last element in the array
-        partitionIndex = partition(arr, pivot, first, last); 
+        partitionIndex = partition(duplicateArray, pivot, first, last); 
 
         // Recursively call quickSort for elements on either side of the partitionIndex
-        quickSort(arr, first, partitionIndex - 1);
-        quickSort(arr, partitionIndex + 1, last);
+        quickSort(duplicateArray, first, partitionIndex - 1);
+        quickSort(duplicateArray, partitionIndex + 1, last);
     }
-    return arr;
+    return duplicateArray;
 }
 
 function partition(arr, pivot, first, last){ 
