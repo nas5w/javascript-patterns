@@ -11,10 +11,11 @@ const subject = (() => {
   };
 
   const notifyObservers = content => {
-    observers.forEach(observer => observer.update(content));
+    observers.forEach(observer => observer(content));
   };
 
   return {
+    observers,
     addObserver,
     removeObserver,
     notifyObservers
