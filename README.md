@@ -21,7 +21,7 @@ This repository contains common algorithms, design patters, and techniques imple
 
 ## Patterns
 
-- Observer (Tests needed)
+- Observer
 - Revealing Module (Tests needed)
 - Singleton (Tests needed)
 
