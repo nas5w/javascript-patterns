@@ -17,7 +17,22 @@ This repository contains common algorithms, design patters, and techniques imple
   - TODO: Bucket Sort
   - TODO: Heap Sort
   - TODO: Counting Sort
+  - TODO: Internal Sort
+  - TODO: External SOrt
+  - TODO: Bubble Sort
+  - TODO: Selection Sort
+  - TODO: Insertion Sort
+
+  
 - Searching
+  - TODO: Linear Search
+  - TODO: Binary Search
+  - TODO: Jump Search
+  - TODO: Interpolation Search
+  - TODO: Exponential Search
+  - TODO: Sublist Search (Search a linked list in another list)
+  - TODO: Fibonacci Search
+  - TODO: The Ubiquitous Binary Search
 
 ## Patterns
 
