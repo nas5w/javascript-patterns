@@ -39,13 +39,13 @@ This repository contains common algorithms, design patters, and techniques imple
 - Observer
 - Revealing Module (Tests needed)
 - Singleton (Tests needed)
+- Builder
 - TODO: Factory
 - TODO: Adapter
 - TODO: Bridge
 - TODO: Decorator
 - TODO: Flyweight
 - TODO: Proxy
-- TODO: Builder
 
 ## Techniques
 
