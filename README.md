@@ -14,6 +14,8 @@ This repository contains common algorithms, design patters, and techniques imple
 
 **Note:** Code from this repository should not be used in production! There are likely much more robust and well-tested built-in methods or npm packages to accomplish any task
 
+This repository maintained by [Nick Scialli](https://twitter.com/nas5w) and powered by awesome contributors like you!
+
 # Contents
 
 ## Algorithms
