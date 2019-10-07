@@ -12,6 +12,7 @@ This repository contains common algorithms, design patters, and techniques imple
 ## Algorithms
 
 - Sorting
+
   - Merge Sort
   - Quick Sort
   - TODO: Bucket Sort
@@ -19,11 +20,10 @@ This repository contains common algorithms, design patters, and techniques imple
   - TODO: Counting Sort
   - TODO: Internal Sort
   - TODO: External SOrt
-  - TODO: Bubble Sort
+  - Bubble Sort
   - TODO: Selection Sort
   - TODO: Insertion Sort
 
-  
 - Searching
   - TODO: Linear Search
   - TODO: Binary Search
