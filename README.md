@@ -15,7 +15,7 @@ This repository contains common algorithms, design patters, and techniques imple
   - Merge Sort
   - Quick Sort
   - TODO: Bucket Sort
-  - TODO: Heap Sort
+  - Heap Sort
   - TODO: Counting Sort
   - TODO: Internal Sort
   - TODO: External SOrt
