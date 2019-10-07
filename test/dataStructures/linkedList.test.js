@@ -38,7 +38,7 @@ describe('Linked List data structure', () => {
 
     const values = [];
     for (const value of list) values.push(value);
-    
+
     expect(values).toEqual([1, 2, 3]);
   });
 
