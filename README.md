@@ -27,7 +27,7 @@ This repository contains common algorithms, design patters, and techniques imple
   - Counting Sort
   - Bubble Sort
   - Selection Sort
-  - TODO: Insertion Sort
+  - Insertion Sort
 
 - Searching
 
