@@ -51,7 +51,7 @@ This repository maintained by [Nick Scialli](https://twitter.com/nas5w) and powe
 - TODO: Factory
 - TODO: Adapter
 - TODO: Bridge
-- TODO: Decorator
+- Decorator
 - TODO: Flyweight
 - TODO: Proxy
 - TODO: Builder
