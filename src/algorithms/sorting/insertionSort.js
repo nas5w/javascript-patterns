@@ -1,5 +1,8 @@
-function insertionSort(array, cmp) {
-    cmp = cmp || compare;
+function insertionSort(array) {
+    let cmp = (a, b) => {
+        return a - b;
+    }
+
     var current;
     var j;
     for (var i = 1; i < array.length; i += 1) {
@@ -12,8 +15,6 @@ function insertionSort(array, cmp) {
       array[j + 1] = current;
     }
     return array;
-  }
-
-  exports.insertionSort = insertionSort;
-
 }
+
+module.exports = insertionSort;
