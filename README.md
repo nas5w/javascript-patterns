@@ -53,6 +53,8 @@ This repository contains common algorithms, design patters, and techniques imple
 - TODO: Flyweight
 - TODO: Proxy
 - TODO: Builder
+- TODO: Mixin
+- TODO: Prototype
 
 ## Techniques
 
