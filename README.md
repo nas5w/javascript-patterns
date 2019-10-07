@@ -2,7 +2,7 @@
 
 <img src="https://raw.githubusercontent.com/nas5w/javascript-patterns/master/logo.png" alt="JavaScript Algorithms, Design Patterns, and Techniques" />
 
-&nbsp;
+<img src="https://raw.githubusercontent.com/nas5w/javascript-patterns/master/brain.jpg" alt="brain" />
 
 ![Build Status](https://travis-ci.org/nas5w/javascript-patterns.svg?branch=master)
 [![Codecov Status](https://codecov.io/gh/nas5w/javascript-patterns/branch/master/graph/badge.svg)](https://codecov.io/gh/nas5w/javascript-patterns/branch/master)
@@ -31,7 +31,7 @@ This repository maintained by [Nick Scialli](https://twitter.com/nas5w) and powe
   - [Selection Sort](/src/algorithms/sorting/selectionSort.js)
   - [Insertion Sort](/src/algorithms/sorting/insertionSort.js)
   - TODO: Shell Sort
-  
+
 - Searching
 
   - TODO: Linear Search
