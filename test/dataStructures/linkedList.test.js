@@ -1,11 +1,5 @@
 const LinkedList = require('../../src/dataStructures/linkedList');
 
-global.console = {
-  log: jest.fn(),
-  info: jest.fn(),
-  warn: jest.fn()
-}
-
 describe('Linked List data structure', () => {
   const list = new LinkedList();
 
