@@ -39,7 +39,7 @@ This repository contains common algorithms, design patters, and techniques imple
 
 - Observer
 - Revealing Module (Tests needed)
-- Singleton (Tests needed)
+- Singleton
 - TODO: Factory
 - TODO: Adapter
 - TODO: Bridge
