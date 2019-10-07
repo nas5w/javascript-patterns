@@ -16,8 +16,8 @@ describe('Linked List data structure', () => {
 
   it('Should add an element to the beggining of the linked list', () => {
     const list = new LinkedList();
-    list.prepend(7);
-    expect(list.head.value).toBe(7);
+    list.prepend(7).prepend(8).prepend(9);
+    expect(list.head.value).toBe(9);
   })
 
   it('Should remove items from the linked list', () => {
@@ -25,8 +25,10 @@ describe('Linked List data structure', () => {
     list.insert(1).insert(2).insert(3);
     expect(list.remove(3)).toBe(true);
     expect(list.remove(1)).toBe(true);
+    expect(list.remove(5)).toBe(false);
+    expect(list.remove(3)).toBe(false);
     expect(list.remove(2)).toBe(true);
-    expect(list.remove(5)).not.toBe(true);
+    expect(list.remove(2)).toBe(false);
   });
 
   it('Should print a correct representation of the linked list as string', () => {
