@@ -20,19 +20,19 @@ This repository contains common algorithms, design patters, and techniques imple
 
 - Sorting
 
-  - Merge Sort
-  - Quick Sort
+  - [Merge Sort](https://github.com/ShantanuShinde/javascript-patterns/blob/master/src/algorithms/sorting/mergeSort.js)
+  - [Quick Sort](https://github.com/ShantanuShinde/javascript-patterns/blob/master/src/algorithms/sorting/quickSort.js)
   - TODO: Bucket Sort
-  - Heap Sort
-  - Counting Sort
-  - Bubble Sort
-  - Selection Sort
-  - Insertion Sort
+  - [Heap Sort](https://github.com/ShantanuShinde/javascript-patterns/blob/master/src/algorithms/sorting/heapSort.js)
+  - [Counting Sort](https://github.com/ShantanuShinde/javascript-patterns/blob/master/src/algorithms/sorting/countingSort.js)
+  - [Bubble Sort](https://github.com/ShantanuShinde/javascript-patterns/blob/master/src/algorithms/sorting/bubbleSort.js)
+  - [Selection Sort](https://github.com/ShantanuShinde/javascript-patterns/blob/master/src/algorithms/sorting/selectionSort.js)
+  - [Insertion Sort](https://github.com/ShantanuShinde/javascript-patterns/blob/master/src/algorithms/sorting/insertionSort.js)
 
 - Searching
 
   - TODO: Linear Search
-  - Binary Search
+  - [Binary Search](https://github.com/ShantanuShinde/javascript-patterns/blob/master/src/algorithms/searching/binarySearch.js)
   - TODO: Jump Search
   - TODO: Interpolation Search
   - TODO: Exponential Search
@@ -42,10 +42,10 @@ This repository contains common algorithms, design patters, and techniques imple
 
 ## Patterns
 
-- Observer
-- Revealing Module (Tests needed)
-- Singleton
-- Builder
+- [Observer](https://github.com/ShantanuShinde/javascript-patterns/blob/master/src/patterns/observer.js)
+- [Revealing Module](https://github.com/ShantanuShinde/javascript-patterns/blob/master/src/patterns/revealing-module.js) (Tests needed)
+- [Singleton](https://github.com/ShantanuShinde/javascript-patterns/blob/master/src/patterns/singleton.js)
+- [Builder](https://github.com/ShantanuShinde/javascript-patterns/blob/master/src/patterns/builder.js)
 - TODO: Factory
 - TODO: Adapter
 - TODO: Bridge
@@ -56,7 +56,7 @@ This repository contains common algorithms, design patters, and techniques imple
 
 ## Techniques
 
-- Memoize (Tests needed)
+- [Memoize](https://github.com/ShantanuShinde/javascript-patterns/blob/master/src/techniques/memoize.js) (Tests needed)
 
 # Contributing
 
