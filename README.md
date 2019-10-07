@@ -54,7 +54,7 @@ This repository maintained by [Nick Scialli](https://twitter.com/nas5w) and powe
 - [Builder](https://github.com/nas5w/javascript-patterns/blob/master/src/patterns/builder.js)
 - TODO: Factory
 - TODO: Adapter
-- TODO: Bridge
+- [Bridge](/src/patterns/bridge.js)
 - Decorator
 - TODO: Flyweight
 - TODO: Proxy
