@@ -21,13 +21,13 @@ This repository contains common algorithms, design patters, and techniques imple
 - Sorting
 
   - Merge Sort <a href="https://www.hackerearth.com/practice/algorithms/sorting/merge-sort/tutorial/">Link</a>
-  - Quick Sort https://www.hackerearth.com/practice/algorithms/sorting/quick-sort/tutorial/
-  - TODO: Bucket Sort https://www.hackerearth.com/practice/algorithms/sorting/bucket-sort/tutorial/
-  - Heap Sort https://www.hackerearth.com/practice/algorithms/sorting/heap-sort/tutorial/
-  - Counting Sort https://www.hackerearth.com/practice/algorithms/sorting/counting-sort/tutorial/
-  - Bubble Sort https://www.hackerearth.com/practice/algorithms/sorting/bubble-sort/tutorial/
-  - Selection Sort https://www.hackerearth.com/practice/algorithms/sorting/selection-sort/tutorial/
-  - Insertion Sort  https://www.hackerearth.com/practice/algorithms/sorting/insertion-sort/tutorial/
+  - Quick Sort <a href="https://www.hackerearth.com/practice/algorithms/sorting/quick-sort/tutorial/">Link</a>
+  - TODO: Bucket Sort <a href="https://www.hackerearth.com/practice/algorithms/sorting/bucket-sort/tutorial/">Link</a>
+  - Heap Sort <a href="https://www.hackerearth.com/practice/algorithms/sorting/heap-sort/tutorial/">Link</a>
+  - Counting Sort <a href="https://www.hackerearth.com/practice/algorithms/sorting/counting-sort/tutorial/">Link</a>
+  - Bubble Sort <a href="https://www.hackerearth.com/practice/algorithms/sorting/bubble-sort/tutorial/">Link</a>
+  - Selection Sort <a href="https://www.hackerearth.com/practice/algorithms/sorting/selection-sort/tutorial/">Link</a>
+  - Insertion Sort  <a href="https://www.hackerearth.com/practice/algorithms/sorting/insertion-sort/tutorial/">Link</a>
 
 - Searching
 
