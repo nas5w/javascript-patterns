@@ -20,14 +20,14 @@ This repository contains common algorithms, design patters, and techniques imple
 
 - Sorting
 
-  - Merge Sort
-  - Quick Sort
-  - TODO: Bucket Sort
-  - Heap Sort
-  - Counting Sort
-  - Bubble Sort
-  - Selection Sort
-  - Insertion Sort
+  - Merge Sort https://www.hackerearth.com/practice/algorithms/sorting/merge-sort/tutorial/
+  - Quick Sort https://www.hackerearth.com/practice/algorithms/sorting/quick-sort/tutorial/
+  - TODO: Bucket Sort https://www.hackerearth.com/practice/algorithms/sorting/bucket-sort/tutorial/
+  - Heap Sort https://www.hackerearth.com/practice/algorithms/sorting/heap-sort/tutorial/
+  - Counting Sort https://www.hackerearth.com/practice/algorithms/sorting/counting-sort/tutorial/
+  - Bubble Sort https://www.hackerearth.com/practice/algorithms/sorting/bubble-sort/tutorial/
+  - Selection Sort https://www.hackerearth.com/practice/algorithms/sorting/selection-sort/tutorial/
+  - Insertion Sort  https://www.hackerearth.com/practice/algorithms/sorting/insertion-sort/tutorial/
 
 - Searching
 
