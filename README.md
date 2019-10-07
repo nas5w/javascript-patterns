@@ -41,7 +41,7 @@ This repository contains common algorithms, design patters, and techniques imple
 - TODO: Factory
 - TODO: Adapter
 - TODO: Bridge
-- TODO: Decorator
+- Decorator
 - TODO: Flyweight
 - TODO: Proxy
 - TODO: Builder
