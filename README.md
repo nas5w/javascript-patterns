@@ -20,19 +20,19 @@ This repository contains common algorithms, design patters, and techniques imple
 
 - Sorting
 
-  - Merge Sort
-  - Quick Sort
+  - [Merge Sort](/src/algorithms/sorting/mergeSort.js)
+  - [Quick Sort](/src/algorithms/sorting/quickSort.js)
   - TODO: Bucket Sort
-  - Heap Sort
-  - Counting Sort
-  - Bubble Sort
-  - Selection Sort
-  - Insertion Sort
+  - [Heap Sort](/src/algorithms/sorting/heapSort.js)
+  - [Counting Sort](/src/algorithms/sorting/countingSort.js)
+  - [Bubble Sort](/src/algorithms/sorting/bubbleSort.js)
+  - [Selection Sort](/src/algorithms/sorting/selectionSort.js)
+  - [Insertion Sort](/src/algorithms/sorting/insertionSort.js)
 
 - Searching
 
   - TODO: Linear Search
-  - Binary Search
+  - [Binary Search](/src/algorithms/searching/binarySearch.js)
   - TODO: Jump Search
   - TODO: Interpolation Search
   - TODO: Exponential Search
@@ -42,10 +42,10 @@ This repository contains common algorithms, design patters, and techniques imple
 
 ## Patterns
 
-- Observer
-- Revealing Module (Tests needed)
-- Singleton
-- Builder
+- [Observer](/src/patterns/observer.js)
+- [Revealing Module](/src/patterns/revealing-module.js) (Tests needed)
+- [Singleton](/src/patterns/singleton.js)
+- [Builder](/src/patterns/builder.js)
 - TODO: Factory
 - TODO: Adapter
 - TODO: Bridge
@@ -56,7 +56,7 @@ This repository contains common algorithms, design patters, and techniques imple
 
 ## Techniques
 
-- Memoize (Tests needed)
+- [Memoize](/src/techniques/memoize.js) (Tests needed)
 
 # Contributing
 
