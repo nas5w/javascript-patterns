@@ -1,13 +1,14 @@
-const linearSearch = require('../../../src/algorithms/searching/linearSearch');
+const linearSearch = require("../../../src/algorithms/searching/linearSearch");
 
-describe('Linear Search algorithm', () => {
-    it('Find the indexes of the desired element in the array', () => {
-      const indexes = linearSearch([1, 2, 6, 6, 4, 6, 9], 6);
-      expect(indexes).toEqual([2, 3, 5]);
-    });
-
-    it('Should return an empty array if nothing is found', () => {
-      const indexes = linearSearch([1, 2, 6, 6, 4, 6, 9], 11);
-      expect(indexes).toEqual([]);
-    });
+describe("Linear Search algorithm", () => {
+  it("Find item in array", () => {
+    const arr1 = [1, 3, 5, 7, 8, 9];
+    const result = linearSearch(arr1, 8);
+    expect(result).toBe(4);
+  });
+  it("item not found in array", () => {
+    const arr1 = [1, 3, 5, 7, 8, 9];
+    const result = linearSearch(arr1, 22);
+    expect(result).toBe(false);
+  });
 });
