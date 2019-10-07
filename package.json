@@ -30,6 +30,9 @@
   "devDependencies": {
     "eslint": "^5.16.0"
   },
+  "resolutions": {
+    "**/**/set-value": "^2.0.1"
+  },
   "jest": {
     "coverageDirectory": "./coverage/",
     "collectCoverage": true,
