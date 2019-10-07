@@ -37,8 +37,8 @@ This repository maintained by [Nick Scialli](https://twitter.com/nas5w) and powe
 
 - Searching
 
-  - TODO: Linear Search
-  - [Binary Search](/src/algorithms/searching/binarySearch.js)
+  - [Linear Search](https://github.com/nas5w/javascript-patterns/blob/master/src/algorithms/searching/linearSearch.js)
+  - [Binary Search](https://github.com/nas5w/javascript-patterns/blob/master/src/algorithms/searching/binarySearch.js)
   - TODO: Jump Search
   - TODO: Interpolation Search
   - TODO: Exponential Search
@@ -48,10 +48,10 @@ This repository maintained by [Nick Scialli](https://twitter.com/nas5w) and powe
 
 ## Patterns
 
-- [Observer](/src/patterns/observer.js)
-- [Revealing Module](/src/patterns/revealing-module.js)
-- [Singleton](/src/patterns/singleton.js)
-- [Builder](/src/patterns/builder.js)
+- [Observer](https://github.com/nas5w/javascript-patterns/blob/master/src/patterns/observer.js)
+- [Revealing Module](https://github.com/nas5w/javascript-patterns/blob/master/src/patterns/revealing-module.js) (Tests needed)
+- [Singleton](https://github.com/nas5w/javascript-patterns/blob/master/src/patterns/singleton.js)
+- [Builder](https://github.com/nas5w/javascript-patterns/blob/master/src/patterns/builder.js)
 - TODO: Factory
 - TODO: Adapter
 - TODO: Bridge
@@ -66,6 +66,24 @@ This repository maintained by [Nick Scialli](https://twitter.com/nas5w) and powe
 ## Techniques
 
 - [Memoize](/src/techniques/memoize.js)
+
+## Data Structures
+
+- [Linked List](https://github.com/nas5w/javascript-patterns/blob/master/src/dataStructures/linkedList.js)
+- TODO: Doubly Linked List
+- TODO: Stack
+- TODO: Queue
+- TODO: Binary Tree
+- TODO: Graph
+- TODO: Hash Table
+- TODO: Heap
+- TODO: Tree
+- TODO: Graph
+- TODO: Disjoint Set
+
+## Data Structures
+
+- [Linked List](https://github.com/nas5w/javascript-patterns/blob/master/src/dataStructures/linkedList.js)
 
 # Contributing
 
