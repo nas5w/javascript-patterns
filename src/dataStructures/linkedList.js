@@ -67,7 +67,7 @@ class LinkedList {
   }
 
   includes(value) {
-    if (this.head === null) return null;
+    if (this.head === null) return false;
 
     let current = this.head;
 
