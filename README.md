@@ -23,7 +23,7 @@ This repository contains common algorithms, design patters, and techniques imple
   - TODO: Selection Sort
   - TODO: Insertion Sort
 
-  
+
 - Searching
   - TODO: Linear Search
   - TODO: Binary Search
@@ -45,6 +45,7 @@ This repository contains common algorithms, design patters, and techniques imple
 - TODO: Decorator
 - TODO: Flyweight
 - TODO: Proxy
+- TODO: Builder
 
 ## Techniques
 
