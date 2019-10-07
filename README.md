@@ -14,6 +14,8 @@ This repository contains common algorithms, design patters, and techniques imple
 
 **Note:** Code from this repository should not be used in production! There are likely much more robust and well-tested built-in methods or npm packages to accomplish any task
 
+This repository maintained by [Nick Scialli](https://twitter.com/nas5w) and powered by awesome contributors like you!
+
 # Contents
 
 ## Algorithms
@@ -43,20 +45,20 @@ This repository contains common algorithms, design patters, and techniques imple
 ## Patterns
 
 - [Observer](/src/patterns/observer.js)
-- [Revealing Module](/src/patterns/revealing-module.js) (Tests needed)
+- [Revealing Module](/src/patterns/revealing-module.js)
 - [Singleton](/src/patterns/singleton.js)
 - [Builder](/src/patterns/builder.js)
 - TODO: Factory
 - TODO: Adapter
 - TODO: Bridge
-- TODO: Decorator
+- Decorator
 - TODO: Flyweight
 - TODO: Proxy
 - TODO: Builder
 
 ## Techniques
 
-- [Memoize](/src/techniques/memoize.js) (Tests needed)
+- [Memoize](/src/techniques/memoize.js)
 
 # Contributing
 
