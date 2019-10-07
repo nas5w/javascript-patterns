@@ -20,7 +20,7 @@ This repository contains common algorithms, design patters, and techniques imple
 
 - Sorting
 
-  - Merge Sort https://www.hackerearth.com/practice/algorithms/sorting/merge-sort/tutorial/
+  - Merge Sort <a href="https://www.hackerearth.com/practice/algorithms/sorting/merge-sort/tutorial/">Link</a>
   - Quick Sort https://www.hackerearth.com/practice/algorithms/sorting/quick-sort/tutorial/
   - TODO: Bucket Sort https://www.hackerearth.com/practice/algorithms/sorting/bucket-sort/tutorial/
   - Heap Sort https://www.hackerearth.com/practice/algorithms/sorting/heap-sort/tutorial/
