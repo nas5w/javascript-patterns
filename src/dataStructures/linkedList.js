@@ -56,6 +56,9 @@ class LinkedList {
     }
 
     if (current.next !== null) {
+      if (current.next === this.tail) {
+        this.tail = current;
+      }
       current.next = current.next.next;
       return true;
     }
