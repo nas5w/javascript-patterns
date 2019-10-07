@@ -4,11 +4,14 @@
 
 <img src="https://raw.githubusercontent.com/nas5w/javascript-patterns/master/brain.jpg" alt="brain" />
 
+&nbsp;
+
 ![Build Status](https://travis-ci.org/nas5w/javascript-patterns.svg?branch=master)
 [![Codecov Status](https://codecov.io/gh/nas5w/javascript-patterns/branch/master/graph/badge.svg)](https://codecov.io/gh/nas5w/javascript-patterns/branch/master)
 
 </div>
-<br />
+
+<hr />
 
 This repository contains common algorithms, design patters, and techniques implemented in JavaScript. Code here is best used for learning purposes and practice. [Contributing](#Contributing) to this repo is appreciated and requested, especially if you're trying to learn JavaScript!
 
