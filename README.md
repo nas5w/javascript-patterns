@@ -18,8 +18,6 @@ This repository contains common algorithms, design patters, and techniques imple
   - TODO: Bucket Sort
   - Heap Sort
   - TODO: Counting Sort
-  - TODO: Internal Sort
-  - TODO: External SOrt
   - Bubble Sort
   - TODO: Selection Sort
   - TODO: Insertion Sort
