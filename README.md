@@ -36,7 +36,7 @@ This repository contains common algorithms, design patters, and techniques imple
 ## Patterns
 
 - Observer
-- Revealing Module (Tests needed)
+- Revealing Module
 - Singleton
 - TODO: Factory
 - TODO: Adapter
