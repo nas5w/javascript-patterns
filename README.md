@@ -30,7 +30,8 @@ This repository maintained by [Nick Scialli](https://twitter.com/nas5w) and powe
   - [Bubble Sort](/src/algorithms/sorting/bubbleSort.js)
   - [Selection Sort](/src/algorithms/sorting/selectionSort.js)
   - [Insertion Sort](/src/algorithms/sorting/insertionSort.js)
-
+  - TODO: Shell Sort
+  
 - Searching
 
   - TODO: Linear Search
