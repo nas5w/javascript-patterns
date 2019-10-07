@@ -22,20 +22,20 @@ This repository maintained by [Nick Scialli](https://twitter.com/nas5w) and powe
 
 - Sorting
 
-  - [Merge Sort](https://github.com/nas5w/javascript-patterns/blob/master/src/algorithms/sorting/mergeSort.js)
-  - [Quick Sort](https://github.com/nas5w/javascript-patterns/blob/master/src/algorithms/sorting/quickSort.js)
+  - [Merge Sort](/src/algorithms/sorting/mergeSort.js)
+  - [Quick Sort](/src/algorithms/sorting/quickSort.js)
   - TODO: Bucket Sort
-  - [Heap Sort](https://github.com/nas5w/javascript-patterns/blob/master/src/algorithms/sorting/heapSort.js)
-  - [Counting Sort](https://github.com/nas5w/javascript-patterns/blob/master/src/algorithms/sorting/countingSort.js)
-  - [Bubble Sort](https://github.com/nas5w/javascript-patterns/blob/master/src/algorithms/sorting/bubbleSort.js)
-  - [Selection Sort](https://github.com/nas5w/javascript-patterns/blob/master/src/algorithms/sorting/selectionSort.js)
-  - [Insertion Sort](https://github.com/nas5w/javascript-patterns/blob/master/src/algorithms/sorting/insertionSort.js)
+  - [Heap Sort](/src/algorithms/sorting/heapSort.js)
+  - [Counting Sort](/src/algorithms/sorting/countingSort.js)
+  - [Bubble Sort](/src/algorithms/sorting/bubbleSort.js)
+  - [Selection Sort](/src/algorithms/sorting/selectionSort.js)
+  - [Insertion Sort](/src/algorithms/sorting/insertionSort.js)
   - TODO: Shell Sort
-
+  
 - Searching
 
   - TODO: Linear Search
-  - [Binary Search](https://github.com/nas5w/javascript-patterns/blob/master/src/algorithms/searching/binarySearch.js)
+  - [Binary Search](/src/algorithms/searching/binarySearch.js)
   - TODO: Jump Search
   - TODO: Interpolation Search
   - TODO: Exponential Search
@@ -45,21 +45,24 @@ This repository maintained by [Nick Scialli](https://twitter.com/nas5w) and powe
 
 ## Patterns
 
-- [Observer](https://github.com/nas5w/javascript-patterns/blob/master/src/patterns/observer.js)
-- [Revealing Module](https://github.com/nas5w/javascript-patterns/blob/master/src/patterns/revealing-module.js) (Tests needed)
-- [Singleton](https://github.com/nas5w/javascript-patterns/blob/master/src/patterns/singleton.js)
-- [Builder](https://github.com/nas5w/javascript-patterns/blob/master/src/patterns/builder.js)
+- [Observer](/src/patterns/observer.js)
+- [Revealing Module](/src/patterns/revealing-module.js)
+- [Singleton](/src/patterns/singleton.js)
+- [Builder](/src/patterns/builder.js)
 - TODO: Factory
 - TODO: Adapter
 - TODO: Bridge
-- TODO: Decorator
+- Decorator
 - TODO: Flyweight
 - TODO: Proxy
 - TODO: Builder
+- TODO: Facade
+- TODO: Mixin
+- TODO: Prototype
 
 ## Techniques
 
-- [Memoize](https://github.com/nas5w/javascript-patterns/blob/master/src/techniques/memoize.js) (Tests needed)
+- [Memoize](/src/techniques/memoize.js)
 
 # Contributing
 
