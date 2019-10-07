@@ -7,8 +7,8 @@
  */
 function linearSearch(array, value) {
   let foundIndexes = [];
-  array.forEach(item => {
-    if (item === value) foundIndexes.push(item);
+  array.forEach((item, idx) => {
+    if (item === value) foundIndexes.push(idx);
   });
   return foundIndexes;
 }
