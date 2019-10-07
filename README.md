@@ -55,6 +55,8 @@ This repository maintained by [Nick Scialli](https://twitter.com/nas5w) and powe
 - TODO: Flyweight
 - TODO: Proxy
 - TODO: Builder
+- TODO: Mixin
+- TODO: Prototype
 
 ## Techniques
 
