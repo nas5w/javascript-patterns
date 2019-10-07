@@ -31,7 +31,7 @@ This repository contains common algorithms, design patters, and techniques imple
 
 - Searching
 
-  - TODO: Linear Search
+  - Linear Search
   - Binary Search
   - TODO: Jump Search
   - TODO: Interpolation Search
