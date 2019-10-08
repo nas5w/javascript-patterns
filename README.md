@@ -49,14 +49,14 @@ This repository maintained by [Nick Scialli](https://twitter.com/nas5w) and powe
 ## Patterns
 
 - [Observer](https://github.com/nas5w/javascript-patterns/blob/master/src/patterns/observer.js)
-- [Revealing Module](https://github.com/nas5w/javascript-patterns/blob/master/src/patterns/revealing-module.js) (Tests needed)
+- [Revealing Module](https://github.com/nas5w/javascript-patterns/blob/master/src/patterns/revealing-module.js)
 - [Singleton](https://github.com/nas5w/javascript-patterns/blob/master/src/patterns/singleton.js)
 - [Builder](https://github.com/nas5w/javascript-patterns/blob/master/src/patterns/builder.js)
 - TODO: Factory
 - TODO: Adapter
 - [Bridge](/src/patterns/bridge.js)
 - [Decorator](/src/patterns/decorator.js)
-- TODO: Flyweight
+- [Flyweight](https://github.com/nas5w/javascript-patterns/blob/master/src/patterns/flyweight.js)
 - TODO: Proxy
 - TODO: Facade
 - TODO: Mixin
