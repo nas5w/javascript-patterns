@@ -43,7 +43,7 @@ This repository contains common algorithms, design patters, and techniques imple
 - TODO: Bridge
 - TODO: Decorator
 - TODO: Flyweight
-- TODO: Proxy
+- [Proxy](/src/patterns/proxy.js)
 - TODO: Builder
 
 ## Techniques
