@@ -79,6 +79,7 @@ This repository maintained by [Nick Scialli](https://twitter.com/nas5w) and powe
 - TODO: Tree
 - TODO: Graph
 - TODO: Disjoint Set
+- [Binary Search Tree](https://github.com/nas5w/javascript-patterns/blob/master/src/dataStructures/binarySearchTree.js)
 
 # Contributing
 
