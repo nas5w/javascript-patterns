@@ -1,11 +1,23 @@
-# JavaScript Algorithms, Design Patterns, and Techniques
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/nas5w/javascript-patterns/master/logo.png" alt="JavaScript Algorithms, Design Patterns, and Techniques" />
+
+<img src="https://raw.githubusercontent.com/nas5w/javascript-patterns/master/brain.jpg" alt="brain" />
+
+&nbsp;
 
 ![Build Status](https://travis-ci.org/nas5w/javascript-patterns.svg?branch=master)
 [![Codecov Status](https://codecov.io/gh/nas5w/javascript-patterns/branch/master/graph/badge.svg)](https://codecov.io/gh/nas5w/javascript-patterns/branch/master)
 
+</div>
+
+<hr />
+
 This repository contains common algorithms, design patters, and techniques implemented in JavaScript. Code here is best used for learning purposes and practice. [Contributing](#Contributing) to this repo is appreciated and requested, especially if you're trying to learn JavaScript!
 
 **Note:** Code from this repository should not be used in production! There are likely much more robust and well-tested built-in methods or npm packages to accomplish any task
+
+This repository maintained by [Nick Scialli](https://twitter.com/nas5w) and powered by awesome contributors like you!
 
 # Contents
 
@@ -13,19 +25,20 @@ This repository contains common algorithms, design patters, and techniques imple
 
 - Sorting
 
-  - Merge Sort
-  - Quick Sort
+  - [Merge Sort](/src/algorithms/sorting/mergeSort.js)
+  - [Quick Sort](/src/algorithms/sorting/quickSort.js)
   - TODO: Bucket Sort
-  - Heap Sort
-  - Counting Sort
-  - Bubble Sort
-  - Selection Sort
-  - TODO: Insertion Sort
+  - [Heap Sort](/src/algorithms/sorting/heapSort.js)
+  - [Counting Sort](/src/algorithms/sorting/countingSort.js)
+  - [Bubble Sort](/src/algorithms/sorting/bubbleSort.js)
+  - [Selection Sort](/src/algorithms/sorting/selectionSort.js)
+  - [Insertion Sort](/src/algorithms/sorting/insertionSort.js)
+  - TODO: Shell Sort
 
 - Searching
 
-  - TODO: Linear Search
-  - Binary Search
+  - [Linear Search](https://github.com/nas5w/javascript-patterns/blob/master/src/algorithms/searching/linearSearch.js)
+  - [Binary Search](https://github.com/nas5w/javascript-patterns/blob/master/src/algorithms/searching/binarySearch.js)
   - TODO: Jump Search
   - TODO: Interpolation Search
   - TODO: Exponential Search
@@ -35,20 +48,37 @@ This repository contains common algorithms, design patters, and techniques imple
 
 ## Patterns
 
-- Observer
-- Revealing Module (Tests needed)
-- Singleton
+- [Observer](https://github.com/nas5w/javascript-patterns/blob/master/src/patterns/observer.js)
+- [Revealing Module](https://github.com/nas5w/javascript-patterns/blob/master/src/patterns/revealing-module.js)
+- [Singleton](https://github.com/nas5w/javascript-patterns/blob/master/src/patterns/singleton.js)
+- [Builder](https://github.com/nas5w/javascript-patterns/blob/master/src/patterns/builder.js)
 - TODO: Factory
 - TODO: Adapter
-- TODO: Bridge
-- TODO: Decorator
-- TODO: Flyweight
+- [Bridge](/src/patterns/bridge.js)
+- [Decorator](/src/patterns/decorator.js)
+- [Flyweight](https://github.com/nas5w/javascript-patterns/blob/master/src/patterns/flyweight.js)
 - [Proxy](/src/patterns/proxy.js)
-- TODO: Builder
+- TODO: Facade
+- TODO: Mixin
+- TODO: Prototype
 
 ## Techniques
 
-- Memoize (Tests needed)
+- [Memoize](/src/techniques/memoize.js)
+
+## Data Structures
+
+- [Linked List](https://github.com/nas5w/javascript-patterns/blob/master/src/dataStructures/linkedList.js)
+- TODO: Doubly Linked List
+- TODO: Stack
+- TODO: Queue
+- TODO: Binary Tree
+- TODO: Graph
+- TODO: Hash Table
+- TODO: Heap
+- TODO: Tree
+- TODO: Graph
+- TODO: Disjoint Set
 
 # Contributing
 
