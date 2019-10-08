@@ -56,7 +56,7 @@ This repository maintained by [Nick Scialli](https://twitter.com/nas5w) and powe
 - TODO: Adapter
 - [Bridge](/src/patterns/bridge.js)
 - Decorator
-- TODO: Flyweight
+- [Flyweight](https://github.com/nas5w/javascript-patterns/blob/master/src/patterns/flyweight.js)
 - TODO: Proxy
 - TODO: Builder
 - TODO: Facade
