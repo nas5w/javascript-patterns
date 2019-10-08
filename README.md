@@ -55,7 +55,7 @@ This repository maintained by [Nick Scialli](https://twitter.com/nas5w) and powe
 - TODO: Factory
 - TODO: Adapter
 - [Bridge](/src/patterns/bridge.js)
-- Decorator
+- [Decorator](/src/patterns/decorator.js)
 - TODO: Flyweight
 - TODO: Proxy
 - TODO: Facade
