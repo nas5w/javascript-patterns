@@ -8,9 +8,9 @@ describe('Binary Search algorithm', () => {
     expect(result).toBe(true);
   });
 
-  it('Does not find item in array', () => {
-    const arr1 = [1, 3, 5];
-    const result = binarySearch(arr1, 8);
-    expect(result).toBe(false);
+  it('Item not found in an array', () => {
+    const arr1 = [1, 3, 5, 7, 8, 9];
+    const result = binarySearch(arr1, 12);
+    expect(result).toBeFalsy();
   });
 });
