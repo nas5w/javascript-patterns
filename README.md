@@ -57,7 +57,7 @@ This repository maintained by [Nick Scialli](https://twitter.com/nas5w) and powe
 - [Bridge](/src/patterns/bridge.js)
 - [Decorator](/src/patterns/decorator.js)
 - [Flyweight](https://github.com/nas5w/javascript-patterns/blob/master/src/patterns/flyweight.js)
-- TODO: Proxy
+- [Proxy](/src/patterns/proxy.js)
 - TODO: Facade
 - TODO: Mixin
 - TODO: Prototype
