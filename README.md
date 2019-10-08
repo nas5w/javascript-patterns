@@ -81,10 +81,6 @@ This repository maintained by [Nick Scialli](https://twitter.com/nas5w) and powe
 - TODO: Graph
 - TODO: Disjoint Set
 
-## Data Structures
-
-- [Linked List](https://github.com/nas5w/javascript-patterns/blob/master/src/dataStructures/linkedList.js)
-
 # Contributing
 
 **Please make sure to claim an algorithm on the issues list (either by claiming an existing one or creating a new issue if the algo isn't listed). This helps make sure multiple people aren't doing the same work!**
