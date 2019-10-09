@@ -4,7 +4,7 @@ const {
   CreditCard,
   PayPal,
   BitCoin
-} = require('../../src/patterns/strategy');
+} = require('../../src/patterns/behavioral/strategy');
 
 test('Strategy pattern using Debit card payment', () => {
   const cart = new ShoppingCart(new DebitCard());

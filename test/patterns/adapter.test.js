@@ -1,6 +1,6 @@
-const OldInterface = require('../../src/patterns/adapter/old-interface');
-const NewInterface = require('../../src/patterns/adapter/new-interface');
-const Adapter = require('../../src/patterns/adapter/adapter');
+const OldInterface = require('../../src/patterns/structural/adapter/old-interface');
+const NewInterface = require('../../src/patterns/structural/adapter/new-interface');
+const Adapter = require('../../src/patterns/structural/adapter/adapter');
 
 test('return the same value', () => {
   const oldInterface = new OldInterface();

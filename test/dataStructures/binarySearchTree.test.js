@@ -69,7 +69,9 @@ describe('Binary Search Tree', () => {
         tree.insert(56);
         tree.insert(234);
         tree.insert(140);
+        tree.insert(140);
         const treeValues = tree.bfs();
-        expect(treeValues).toEqual([99, 3, 123, 13, 234, 45, 140, 76, 56]);
+        console.log(treeValues);
+        expect(treeValues).toEqual([99, 3, 123, 13, 234, 45, 140, 76, 140, 56]);
     });
 })

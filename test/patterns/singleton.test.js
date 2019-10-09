@@ -1,4 +1,4 @@
-const singleton = require("../../src/patterns/singleton");
+const singleton = require("../../src/patterns/creational/singleton");
 
 test("return the same instance reference", () => {
   const instance1 = singleton();

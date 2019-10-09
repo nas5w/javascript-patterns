@@ -1,4 +1,4 @@
-const {addObserver, removeObserver, notifyObservers, observers } = require('../../src/patterns/observer')
+const {addObserver, removeObserver, notifyObservers, observers } = require('../../src/patterns/behavioral/observer')
 const testFn = jest.fn(n => n * n)
 
 test("addObserver adds an observer", () => {
