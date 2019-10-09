@@ -49,16 +49,15 @@ This repository maintained by [Nick Scialli](https://twitter.com/nas5w) and powe
 ## Patterns
 
 - [Observer](https://github.com/nas5w/javascript-patterns/blob/master/src/patterns/observer.js)
-- [Revealing Module](https://github.com/nas5w/javascript-patterns/blob/master/src/patterns/revealing-module.js) (Tests needed)
+- [Revealing Module](https://github.com/nas5w/javascript-patterns/blob/master/src/patterns/revealing-module.js)
 - [Singleton](https://github.com/nas5w/javascript-patterns/blob/master/src/patterns/singleton.js)
 - [Builder](https://github.com/nas5w/javascript-patterns/blob/master/src/patterns/builder.js)
 - TODO: Factory
 - TODO: Adapter
 - [Bridge](/src/patterns/bridge.js)
-- Decorator
-- TODO: Flyweight
-- TODO: Proxy
-- TODO: Builder
+- [Decorator](/src/patterns/decorator.js)
+- [Flyweight](https://github.com/nas5w/javascript-patterns/blob/master/src/patterns/flyweight.js)
+- [Proxy](/src/patterns/proxy.js)
 - TODO: Facade
 - TODO: Mixin
 - TODO: Prototype
@@ -80,10 +79,7 @@ This repository maintained by [Nick Scialli](https://twitter.com/nas5w) and powe
 - TODO: Tree
 - TODO: Graph
 - TODO: Disjoint Set
-
-## Data Structures
-
-- [Linked List](https://github.com/nas5w/javascript-patterns/blob/master/src/dataStructures/linkedList.js)
+- [Binary Search Tree](https://github.com/nas5w/javascript-patterns/blob/master/src/dataStructures/binarySearchTree.js)
 
 # Contributing
 
