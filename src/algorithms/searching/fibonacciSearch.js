@@ -45,7 +45,7 @@
          }
 
          // if the element is greater than x
-         else if(arr[i] < x) {
+         else if(arr[i] > x) {
             fibNo = fibNo2;
             fibNo1 = fibNo1 - fibNo2;
             fibNo2 = fibNo - fibNo1;
