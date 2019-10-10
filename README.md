@@ -61,6 +61,7 @@ This repository maintained by [Nick Scialli](https://twitter.com/nas5w) and powe
 - TODO: Facade
 - TODO: Mixin
 - TODO: Prototype
+- [Strategy](/src/patterns/strategy.js)
 
 ## Techniques
 
