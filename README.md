@@ -53,7 +53,7 @@ This repository maintained by [Nick Scialli](https://twitter.com/nas5w) and powe
 - [Singleton](https://github.com/nas5w/javascript-patterns/blob/master/src/patterns/singleton.js)
 - [Builder](https://github.com/nas5w/javascript-patterns/blob/master/src/patterns/builder.js)
 - TODO: Factory
-- TODO: Adapter
+- [Adapter](https://github.com/nas5w/javascript-patterns/blob/master/src/patterns/adapter)
 - [Bridge](/src/patterns/bridge.js)
 - [Decorator](/src/patterns/decorator.js)
 - [Flyweight](https://github.com/nas5w/javascript-patterns/blob/master/src/patterns/flyweight.js)
