@@ -71,7 +71,7 @@ This repository maintained by [Nick Scialli](https://twitter.com/nas5w) and powe
 - [Linked List](https://github.com/nas5w/javascript-patterns/blob/master/src/dataStructures/linkedList.js)
 - TODO: Doubly Linked List
 - TODO: Stack
-- TODO: Queue
+- [Queue](/src/dataStructures/queue.js)
 - TODO: Binary Tree
 - TODO: Graph
 - TODO: Hash Table
