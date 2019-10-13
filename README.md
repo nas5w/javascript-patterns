@@ -25,26 +25,27 @@ This repository maintained by [Nick Scialli](https://twitter.com/nas5w) and powe
 
 - Sorting
 
+  - [Bubble Sort](/src/algorithms/sorting/bubbleSort.js)
+  - [Bucket Sort](/src/algorithms/sorting/bucketSort.js)
+  - [Counting Sort](/src/algorithms/sorting/countingSort.js)
+  - [Heap Sort](/src/algorithms/sorting/heapSort.js)
+  - [Insertion Sort](/src/algorithms/sorting/insertionSort.js)
   - [Merge Sort](/src/algorithms/sorting/mergeSort.js)
   - [Quick Sort](/src/algorithms/sorting/quickSort.js)
-  - TODO: Bucket Sort
-  - [Heap Sort](/src/algorithms/sorting/heapSort.js)
-  - [Counting Sort](/src/algorithms/sorting/countingSort.js)
-  - [Bubble Sort](/src/algorithms/sorting/bubbleSort.js)
   - [Selection Sort](/src/algorithms/sorting/selectionSort.js)
-  - [Insertion Sort](/src/algorithms/sorting/insertionSort.js)
-  - TODO: Shell Sort
+  - [Shell Sort](/src/algorithms/sorting/shellSort.js)
 
 - Searching
 
-  - [Linear Search](https://github.com/nas5w/javascript-patterns/blob/master/src/algorithms/searching/linearSearch.js)
-  - [Binary Search](https://github.com/nas5w/javascript-patterns/blob/master/src/algorithms/searching/binarySearch.js)
-  - TODO: Jump Search
-  - TODO: Interpolation Search
-  - TODO: Exponential Search
+  - [Binary Search](/src/algorithms/searching/binarySearch.js)
+  - [Exponential Search](/src/algorithms/searching/exponentialSearch.js)
+  - [Fibonacci Search](/src/algorithms/searching/fibonacciSearch.js)
+  - [Interpolation Search](/src/algorithms/searching/interpolationSearch.js)
+  - [Jump Search](/src/algorithms/searching/jumpSearch.js)
+  - [Linear Search](/src/algorithms/searching/linearSearch.js)
   - TODO: Sublist Search (Search a linked list in another list)
-  - TODO: Fibonacci Search
   - TODO: The Ubiquitous Binary Search
+  - TODO: 
 
 ## Patterns
 
