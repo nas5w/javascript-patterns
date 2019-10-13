@@ -32,9 +32,10 @@ This repository maintained by [Nick Scialli](https://twitter.com/nas5w) and powe
   - [Insertion Sort](/src/algorithms/sorting/insertionSort.js)
   - [Merge Sort](/src/algorithms/sorting/mergeSort.js)
   - [Quick Sort](/src/algorithms/sorting/quickSort.js)
+  - TODO: Radix Sort
   - [Selection Sort](/src/algorithms/sorting/selectionSort.js)
   - [Shell Sort](/src/algorithms/sorting/shellSort.js)
-
+  
 - Searching
 
   - [Binary Search](/src/algorithms/searching/binarySearch.js)
@@ -45,7 +46,6 @@ This repository maintained by [Nick Scialli](https://twitter.com/nas5w) and powe
   - [Linear Search](/src/algorithms/searching/linearSearch.js)
   - TODO: Sublist Search (Search a linked list in another list)
   - TODO: The Ubiquitous Binary Search
-  - TODO: 
 
 ## Patterns
 
