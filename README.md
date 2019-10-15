@@ -27,23 +27,23 @@ This repository maintained by [Nick Scialli](https://twitter.com/nas5w) and powe
 
   - [Merge Sort](/src/algorithms/sorting/mergeSort.js)
   - [Quick Sort](/src/algorithms/sorting/quickSort.js)
-  - TODO: Bucket Sort
+  - [Bucket Sort](/src/algorithms/sorting/bucketSort.js)
   - [Heap Sort](/src/algorithms/sorting/heapSort.js)
   - [Counting Sort](/src/algorithms/sorting/countingSort.js)
   - [Bubble Sort](/src/algorithms/sorting/bubbleSort.js)
   - [Selection Sort](/src/algorithms/sorting/selectionSort.js)
   - [Insertion Sort](/src/algorithms/sorting/insertionSort.js)
-  - TODO: Shell Sort
+  - [Shell Sort](/src/algorithms/sorting/shellSort.js)
 
 - Searching
 
   - [Linear Search](https://github.com/nas5w/javascript-patterns/blob/master/src/algorithms/searching/linearSearch.js)
   - [Binary Search](https://github.com/nas5w/javascript-patterns/blob/master/src/algorithms/searching/binarySearch.js)
-  - TODO: Jump Search
-  - TODO: Interpolation Search
-  - TODO: Exponential Search
+  - [Jump Search](https://github.com/nas5w/javascript-patterns/blob/master/src/algorithms/searching/jumpSearch.js)
+  - [Interpolation Search](https://github.com/nas5w/javascript-patterns/blob/master/src/algorithms/searching/interpolationSearch.js)
+  - [Exponential Search](https://github.com/nas5w/javascript-patterns/blob/master/src/algorithms/searching/exponentialSearch.js)
   - TODO: Sublist Search (Search a linked list in another list)
-  - TODO: Fibonacci Search
+  - [Fibonacci Search](https://github.com/nas5w/javascript-patterns/blob/master/src/algorithms/searching/fibonacciSearch.js)
   - TODO: The Ubiquitous Binary Search
 
 ## Patterns
