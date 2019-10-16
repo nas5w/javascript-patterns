@@ -49,20 +49,20 @@ This repository maintained by [Nick Scialli](https://twitter.com/nas5w) and powe
 
 ## Patterns
 
-- [Observer](https://github.com/nas5w/javascript-patterns/blob/master/src/patterns/observer.js)
-- [Revealing Module](https://github.com/nas5w/javascript-patterns/blob/master/src/patterns/revealing-module.js)
-- [Singleton](https://github.com/nas5w/javascript-patterns/blob/master/src/patterns/singleton.js)
-- [Builder](https://github.com/nas5w/javascript-patterns/blob/master/src/patterns/builder.js)
+- [Observer](https://github.com/nas5w/javascript-patterns/blob/master/src/patterns/behavioral/observer.js)
+- [Revealing Module](https://github.com/nas5w/javascript-patterns/blob/master/src/patterns/structural/revealing-module.js)
+- [Singleton](https://github.com/nas5w/javascript-patterns/blob/master/src/patterns/creational/singleton.js)
+- [Builder](https://github.com/nas5w/javascript-patterns/blob/master/src/patterns/creational/builder.js)
 - [Factory](https://github.com/nas5w/javascript-patterns/blob/master/src/patterns/factory.js)
-- [Adapter](https://github.com/nas5w/javascript-patterns/blob/master/src/patterns/adapter)
-- [Bridge](/src/patterns/bridge.js)
-- [Decorator](/src/patterns/decorator.js)
+- [Adapter](https://github.com/nas5w/javascript-patterns/blob/master/src/patterns/structural/adapter/adapter.js)
+- [Bridge](https://github.com/nas5w/javascript-patterns/blob/master/src/patterns/structural/bridge.js)
+- [Decorator](https://github.com/nas5w/javascript-patterns/blob/master/src/patterns/structural/decorator.js)
 - [Flyweight](https://github.com/nas5w/javascript-patterns/blob/master/src/patterns/flyweight.js)
-- [Proxy](/src/patterns/proxy.js)
+- [Proxy](https://github.com/nas5w/javascript-patterns/blob/master/src/patterns/proxy.js)
 - TODO: Facade
 - TODO: Mixin
 - TODO: Prototype
-- [Strategy](/src/patterns/strategy.js)
+- [Strategy](https://github.com/nas5w/javascript-patterns/blob/master/src/patterns/behavioral/strategy.js)
 
 ## Techniques
 
