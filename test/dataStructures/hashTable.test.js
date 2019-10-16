@@ -63,5 +63,14 @@ describe("Hash Table", () => {
 			ht.insert(10);
 			expect(ht.toString()).toBe("10");
 		})
+	});
+
+	describe("remove", () => {
+		it("should remove item from array", () => {
+			let ht = new HashTable();
+			ht.insert(10);
+			let test = ht.remove(10) >= 0 ? true : false;
+			expect(test).toBe(true)
+		})
 	})
 })

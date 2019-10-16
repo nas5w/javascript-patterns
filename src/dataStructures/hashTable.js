@@ -43,13 +43,20 @@ class HashTable {
 			.trim()
 			.substring(0, result.length - 2);
 	}
-}
+	remove(data) {
+		let hashed = this.HashFunction(data);
 
-// let ht = new HashTable();
-// 			ht.insert(10);
-// 			ht.insert(10);
-// ht._ds.forEach(el => { 
-// 	console.log(typeof el === "object");
-// });
-// console.log(ht);
+		if(this._ds[hashed] === null) {
+			return -1;
+		}
+
+		if(typeof this._ds[hashed] === "object") {
+			this._ds[hashed].remove(data);
+			return hashed; 
+		}
+		
+		this._ds[hashed] = null;
+		return hashed; 
+	}
+}
 module.exports = HashTable;
