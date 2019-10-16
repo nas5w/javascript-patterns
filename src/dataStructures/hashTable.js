@@ -1,4 +1,4 @@
-var LinkedList = require("./LinkedList");
+var LinkedList = require("./linkedList");
 
 class HashTable {
 	constructor(length = 10, hashFunc) {
@@ -28,14 +28,20 @@ class HashTable {
 		if(this._ds[hashed] && !this._ds[hashed].head) {
 			var tmp = this._ds[hashed];
 			this._ds[hashed] = new LinkedList();
-			this._ds[hashed].append(tmp);
+			this._ds[hashed].insert(tmp);
 		}
-		this._ds[hashed].append(hashed);
+		this._ds[hashed].insert(data);
 		return hashed + " added to linked list";
 	}
-	remove(data) {
-		var hashed = this.HashFunction(data);
-		if(this._ds[hashed] )
+	toString() {
+		let result = "";
+		this._ds.forEach(el => {
+			let data =  typeof el === "object" ? el.toString() : el;
+			result +=`${data},\n`;
+		});
+		return result
+			.trim()
+			.substring(0, result.length - 1);
 	}
 }
 
