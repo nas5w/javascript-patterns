@@ -75,7 +75,7 @@ This repository maintained by [Nick Scialli](https://twitter.com/nas5w) and powe
 - [Queue](/src/dataStructures/queue.js)
 - TODO: Binary Tree
 - TODO: Graph
-- TODO: Hash Table
+- [Hash Table](/src/dataStructures/hashTable.js)
 - TODO: Heap
 - TODO: Tree
 - TODO: Graph
