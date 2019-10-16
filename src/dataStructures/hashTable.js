@@ -3,10 +3,10 @@ var LinkedList = require("./linkedList");
 class HashTable {
 	constructor(length = 10, hashFunc) {
 		this._ds = new Array(length);
-		this._hashFunc = hashFunc ? hashFunc : this.HashFunction;
+		this.HashFunction = hashFunc ? hashFunc : this._hashFunc;
 	}
 	// Assume we are Hashing Strings
-	HashFunction (data) {
+	_hashFunc (data) {
 		if(typeof data === "object") {
 			data = JSON.stringify(data);
 		} 
