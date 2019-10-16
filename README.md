@@ -50,19 +50,19 @@ This repository maintained by [Nick Scialli](https://twitter.com/nas5w) and powe
 ## Patterns
 
 - [Observer](/src/patterns/behavioral/observer.js)
-- [Revealing Module](https://github.com/nas5w/javascript-patterns/blob/master/src/patterns/revealing-module.js)
-- [Singleton](https://github.com/nas5w/javascript-patterns/blob/master/src/patterns/singleton.js)
-- [Builder](https://github.com/nas5w/javascript-patterns/blob/master/src/patterns/builder.js)
-- [Factory](https://github.com/nas5w/javascript-patterns/blob/master/src/patterns/factory.js)
-- [Adapter](https://github.com/nas5w/javascript-patterns/blob/master/src/patterns/adapter)
-- [Bridge](/src/patterns/bridge.js)
-- [Decorator](/src/patterns/decorator.js)
-- [Flyweight](https://github.com/nas5w/javascript-patterns/blob/master/src/patterns/flyweight.js)
+- [Revealing Module](/src/patterns/structural/revealing-module.js)
+- [Singleton](/src/patterns/creational/singleton.js)
+- [Builder](/src/patterns/creational/builder.js)
+- [Factory](/src/patterns/factory.js)
+- [Adapter](/src/patterns/structural/adapter)
+- [Bridge](/src/patterns/structural/bridge.js)
+- [Decorator](/src/patterns/structural/decorator.js)
+- [Flyweight](/src/patterns/flyweight.js)
 - [Proxy](/src/patterns/proxy.js)
 - TODO: Facade
 - TODO: Mixin
 - TODO: Prototype
-- [Strategy](/src/patterns/strategy.js)
+- [Strategy](/src/patterns/behavioral/strategy.js)
 
 ## Techniques
 
