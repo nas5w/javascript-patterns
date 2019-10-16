@@ -52,7 +52,7 @@ This repository maintained by [Nick Scialli](https://twitter.com/nas5w) and powe
 - [Revealing Module](https://github.com/nas5w/javascript-patterns/blob/master/src/patterns/revealing-module.js)
 - [Singleton](https://github.com/nas5w/javascript-patterns/blob/master/src/patterns/singleton.js)
 - [Builder](https://github.com/nas5w/javascript-patterns/blob/master/src/patterns/builder.js)
-- TODO: Factory
+- [Factory](https://github.com/nas5w/javascript-patterns/blob/master/src/patterns/factory.js)
 - [Adapter](https://github.com/nas5w/javascript-patterns/blob/master/src/patterns/adapter)
 - [Bridge](/src/patterns/bridge.js)
 - [Decorator](/src/patterns/decorator.js)
