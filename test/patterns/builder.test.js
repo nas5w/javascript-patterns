@@ -1,4 +1,4 @@
-const Builder = require('../../src/patterns/builder');
+const Builder = require('../../src/patterns/creational/builder');
 
 test('Builder return the instance when a method is called', () => {
   const obj = new Builder();

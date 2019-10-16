@@ -1,4 +1,4 @@
-const revealingModule = require('../../src/patterns/revealing-module');
+const revealingModule = require('../../src/patterns/structural/revealing-module');
 
 test("shouldn't expose privateFunction", () => {
   expect(revealingModule.privateFunction).not.toBeDefined();
