@@ -38,6 +38,30 @@ describe("Hash Table", () => {
 	});
 
 	describe("insert", () => {
-		
+		it("should initally insert into the base array", () => {
+			let ht = new HashTable();
+			ht.insert(10);
+			let test = false;
+			ht._ds.forEach(el => { 
+				if(el > 0) test = true });
+			expect(test).toBe(true);
+		});
+		it("should have one datat type of object", () => {
+			let ht = new HashTable();
+			ht.insert(10);
+			ht.insert(10);
+			let test = false;
+			ht._ds.forEach(el => { 
+				if(typeof el === "object") test = true; });
+			expect(test).toBe(true);
+		});
+	});
+
+	describe("toString", () => {
+		it("should not be an empty string", () => {
+			let ht = new HashTable();
+			ht.insert(10);
+			expect(ht.toString()).toBe("10");
+		})
 	})
 })

@@ -41,8 +41,15 @@ class HashTable {
 		});
 		return result
 			.trim()
-			.substring(0, result.length - 1);
+			.substring(0, result.length - 2);
 	}
 }
 
+// let ht = new HashTable();
+// 			ht.insert(10);
+// 			ht.insert(10);
+// ht._ds.forEach(el => { 
+// 	console.log(typeof el === "object");
+// });
+// console.log(ht);
 module.exports = HashTable;
