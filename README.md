@@ -49,7 +49,7 @@ This repository maintained by [Nick Scialli](https://twitter.com/nas5w) and powe
 
 ## Patterns
 
-- [Observer](/src/patterns/observer.js)
+- [Observer](/src/patterns/behavioral/observer.js)
 - [Revealing Module](https://github.com/nas5w/javascript-patterns/blob/master/src/patterns/revealing-module.js)
 - [Singleton](https://github.com/nas5w/javascript-patterns/blob/master/src/patterns/singleton.js)
 - [Builder](https://github.com/nas5w/javascript-patterns/blob/master/src/patterns/builder.js)
