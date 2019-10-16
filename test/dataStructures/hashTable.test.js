@@ -62,6 +62,13 @@ describe("Hash Table", () => {
 			let ht = new HashTable();
 			ht.insert(10);
 			expect(ht.toString()).toBe("10");
+		});
+		it("given an object should still return a string", () => {
+			let ht = new HashTable();
+			ht.insert(10);
+			ht.insert(10);
+			let test = typeof ht.toString();
+			expect(test).toBe("string");
 		})
 	});
 
@@ -71,6 +78,18 @@ describe("Hash Table", () => {
 			ht.insert(10);
 			let test = ht.remove(10) >= 0 ? true : false;
 			expect(test).toBe(true)
-		})
+		});
+		it("should return less than 0 if nothing to delete", () => {
+			let ht = new HashTable();
+			let test = ht.remove(10) === -1 ? true : false;
+			expect(test).toBe(true);
+		});
+		it("should delete an object", () => {
+			let ht = new HashTable();
+			ht.insert(10);
+			ht.insert(10);
+			let test = ht.remove(10) >= 0 ? true : false;
+			expect(test).toBe(true);
+		});
 	})
 })
