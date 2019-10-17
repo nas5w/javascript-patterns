@@ -1,4 +1,4 @@
-const decorator = require("../../src/patterns/decorator");
+const decorator = require("../../src/patterns/structural/decorator");
 
 test("decorates an instance with new properties in runtime", () => {
   const { User, DecoratedUser } = decorator;

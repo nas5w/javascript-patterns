@@ -40,4 +40,21 @@ describe('Stack data structure', () => {
     stack.push(3);
     expect(stack.peek()).toBe(3);
   });
+
+  it('Should check the length of the stack', () => {
+    const stack = new Stack();
+    stack.push(1);
+    stack.push(2);
+    stack.push(3);
+    expect(stack.length()).toBe(3);
+  });
+
+  it('Should clear the contents of the stack', () => {
+    const stack = new Stack();
+    stack.push(1);
+    stack.push(2);
+    stack.push(3);
+    stack.clear()
+    expect(stack.length()).toBe(0);
+  });
 })

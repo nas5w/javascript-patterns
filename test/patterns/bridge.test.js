@@ -1,4 +1,4 @@
-const Bridge = require("../../src/patterns/bridge");
+const Bridge = require("../../src/patterns/structural/bridge");
 
 test("Implementors should have the same interface but different behavior", () => {
   const { Implementors } = Bridge;

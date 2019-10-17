@@ -25,43 +25,44 @@ This repository maintained by [Nick Scialli](https://twitter.com/nas5w) and powe
 
 - Sorting
 
+  - [Bubble Sort](/src/algorithms/sorting/bubbleSort.js)
+  - [Bucket Sort](/src/algorithms/sorting/bucketSort.js)
+  - [Counting Sort](/src/algorithms/sorting/countingSort.js)
+  - [Heap Sort](/src/algorithms/sorting/heapSort.js)
+  - [Insertion Sort](/src/algorithms/sorting/insertionSort.js)
   - [Merge Sort](/src/algorithms/sorting/mergeSort.js)
   - [Quick Sort](/src/algorithms/sorting/quickSort.js)
-  - TODO: Bucket Sort
-  - [Heap Sort](/src/algorithms/sorting/heapSort.js)
-  - [Counting Sort](/src/algorithms/sorting/countingSort.js)
-  - [Bubble Sort](/src/algorithms/sorting/bubbleSort.js)
+  - TODO: Radix Sort
   - [Selection Sort](/src/algorithms/sorting/selectionSort.js)
-  - [Insertion Sort](/src/algorithms/sorting/insertionSort.js)
-  - TODO: Shell Sort
-
+  - [Shell Sort](/src/algorithms/sorting/shellSort.js)
+  
 - Searching
 
-  - [Linear Search](/src/algorithms/searching/linearSearch.js)
   - [Binary Search](/src/algorithms/searching/binarySearch.js)
-  - TODO: Jump Search
-  - TODO: Interpolation Search
-  - TODO: Exponential Search
+  - [Exponential Search](/src/algorithms/searching/exponentialSearch.js)
+  - [Fibonacci Search](/src/algorithms/searching/fibonacciSearch.js)
+  - [Interpolation Search](/src/algorithms/searching/interpolationSearch.js)
+  - [Jump Search](/src/algorithms/searching/jumpSearch.js)
+  - [Linear Search](/src/algorithms/searching/linearSearch.js)
   - TODO: Sublist Search (Search a linked list in another list)
-  - TODO: Fibonacci Search
   - TODO: The Ubiquitous Binary Search
 
 ## Patterns
 
-- [Observer](/src/patterns/observer.js)
-- [Revealing Module](/src/patterns/revealing-module.js)
-- [Singleton](/src/patterns/singleton.js)
-- [Builder](/src/patterns/builder.js)
+- [Observer](/src/patterns/behavioral/observer.js)
+- [Revealing Module](/src/patterns/structural/revealing-module.js)
+- [Singleton](/src/patterns/creational/singleton.js)
+- [Builder](/src/patterns/creational/builder.js)
 - [Factory](/src/patterns/factory.js)
-- [Adapter](/src/patterns/adapter)
-- [Bridge](/src/patterns/bridge.js)
-- [Decorator](/src/patterns/decorator.js)
+- [Adapter](/src/patterns/structural/adapter/adapter.js)
+- [Bridge](/src/patterns/structural/bridge.js)
+- [Decorator](/src/patterns/structural/decorator.js)
 - [Flyweight](/src/patterns/flyweight.js)
 - [Proxy](/src/patterns/proxy.js)
 - [Facade](/src/patterns/facade.js)
 - TODO: Mixin
 - TODO: Prototype
-- [Strategy](/src/patterns/strategy.js)
+- [Strategy](/src/patterns/behavioral/strategy.js)
 
 ## Techniques
 
@@ -75,7 +76,7 @@ This repository maintained by [Nick Scialli](https://twitter.com/nas5w) and powe
 - [Queue](/src/dataStructures/queue.js)
 - TODO: Binary Tree
 - TODO: Graph
-- TODO: Hash Table
+- [Hash Table](/src/dataStructures/hashTable.js)
 - TODO: Heap
 - TODO: Tree
 - TODO: Graph
