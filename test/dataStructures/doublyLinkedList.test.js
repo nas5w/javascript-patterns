@@ -9,7 +9,7 @@ describe("Doubly Linked List Data structure", () => {
   it("Should add the first node as head of the dll", () => {
     const dll = new DLL();
     dll.insertToStart(1);
-    expect(dll.head.value).toBe(1);
+    expect(dll.head.val).toBe(1);
   });
 
   it("Should add an element to the end of the list", () => {
@@ -40,9 +40,8 @@ describe("Doubly Linked List Data structure", () => {
   it("Should delete the last element in the list", () => {
     const dll = new DLL();
     dll.insertToStart(1);
-    dll.insertToStart(2);
-    dll.insertToStart(3);
-    dll.deleteStart();
-    expect(dll.toString()).toBe("3, 2");
+    
+    dll.deleteEnd();
+    expect(dll.toString()).toBe("");
   });
 });

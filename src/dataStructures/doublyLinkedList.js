@@ -24,6 +24,7 @@ class DLL {
     } else {
       newNode.next = this.head;
       this.head = newNode;
+      newNode.previous = null;
     }
 
     return this;
@@ -75,7 +76,13 @@ class DLL {
     while (temp.next) {
       temp = temp.next;
     }
-    temp.previous.next = null;
+    if(temp === this.head){
+      temp = null;
+      this.head = null;
+    }
+    if (temp) {
+      temp.previous.next = null;
+    }
 
     return this;
   }
@@ -89,15 +96,27 @@ class DLL {
   toString() {
     let temp = this.head;
     let outputString = "";
-    while (temp.next) {
+    if (temp) {
       outputString += temp.val.toString();
       if (temp.next) {
         outputString += ", ";
       }
       temp = temp.next;
     }
+    while (temp) {
+      outputString += temp.val.toString();
+      temp = temp.next;
+      if (temp !== null) {
+        outputString += ", ";
+      }
+    }
     return outputString;
   }
 }
 
 module.exports = DLL;
+
+const dll = new DLL();
+dll.insertToStart(2);
+dll.insertToStart(3);
+console.log(dll.toString());
