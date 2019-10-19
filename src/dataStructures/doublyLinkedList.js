@@ -91,7 +91,9 @@ class DLL {
     let outputString = "";
     while (temp.next) {
       outputString += temp.val.toString();
-      outputString += ', '
+      if (temp.next) {
+        outputString += ", ";
+      }
       temp = temp.next;
     }
     return outputString;
