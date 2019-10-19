@@ -1,7 +1,7 @@
 const DLL = require("../../src/dataStructures/doublyLinkedList");
 
 describe("Doubly Linked List Data structure", () => {
-  it("Should have empty head and tail when created", () => {
+  it("Should have empty head when created", () => {
     const dll = new DLL();
     expect(dll.head).toBe(null);
   });

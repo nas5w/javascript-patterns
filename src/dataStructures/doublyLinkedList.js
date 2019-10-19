@@ -58,7 +58,6 @@ class DLL {
    */
 
   deleteStart() {
-    //console.log("deleted value is: " + this.head.val);
     this.head.next.previous = null;
     this.head = this.head.next;
 
@@ -76,7 +75,6 @@ class DLL {
     while (temp.next) {
       temp = temp.next;
     }
-    //console.log("deleted value is: " + temp.val);
     temp.previous.next = null;
 
     return this;
@@ -100,13 +98,4 @@ class DLL {
   }
 }
 
-// Usage Example
-
-/* const dll = new DLL();
-console.log(dll.insertToStart(5));
-console.log(dll.insertToStart(6));
-console.log(dll.insertToEnd(7));
-console.log(dll.insertToEnd(8));
-console.log(dll.deleteStart());
-console.log(dll.deleteEnd());
- */
+module.exports = DLL;
