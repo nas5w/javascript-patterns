@@ -83,20 +83,6 @@ class DLL {
   }
 
   /**
-   * @description output the list to the console
-   * @param {void}
-   * @returns {void}
-   */
-
-  displayList() {
-    let temp = this.head;
-    while (temp.next) {
-      console.log(temp.val);
-      temp = temp.next;
-    }
-  }
-
-  /**
    * @description return the list as a string
    * @param {void}
    * @returns returns the linked list as a string
@@ -107,6 +93,7 @@ class DLL {
     let outputString = "";
     while (temp.next) {
       outputString += temp.val.toString();
+      outputString += ', '
       temp = temp.next;
     }
     return outputString;
