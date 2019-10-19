@@ -115,8 +115,3 @@ class DLL {
 }
 
 module.exports = DLL;
-
-const dll = new DLL();
-dll.insertToStart(2);
-dll.insertToStart(3);
-console.log(dll.toString());
