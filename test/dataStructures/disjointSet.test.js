@@ -40,6 +40,7 @@ describe('Disjoint Set data structure', () => {
 		disjointSet.union(1,2);
 		disjointSet.union(3,2);
 		disjointSet.union(2,2);
+		
 
 		expect(disjointSet.map['1'].rank).toBe(1);
 		expect(disjointSet.map['2'].rank).toBe(null);
