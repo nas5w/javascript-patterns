@@ -35,7 +35,7 @@ This repository maintained by [Nick Scialli](https://twitter.com/nas5w) and powe
   - TODO: Radix Sort
   - [Selection Sort](/src/algorithms/sorting/selectionSort.js)
   - [Shell Sort](/src/algorithms/sorting/shellSort.js)
-  
+
 - Searching
 
   - [Binary Search](/src/algorithms/searching/binarySearch.js)
@@ -75,7 +75,7 @@ This repository maintained by [Nick Scialli](https://twitter.com/nas5w) and powe
 - TODO: Stack
 - [Queue](/src/dataStructures/queue.js)
 - TODO: Binary Tree
-- TODO: Graph
+- [Graph](/src/dataStructures/graph.js)
 - [Hash Table](/src/dataStructures/hashTable.js)
 - TODO: Heap
 - TODO: Tree
