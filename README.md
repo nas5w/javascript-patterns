@@ -32,7 +32,7 @@ This repository maintained by [Nick Scialli](https://twitter.com/nas5w) and powe
   - [Insertion Sort](/src/algorithms/sorting/insertionSort.js)
   - [Merge Sort](/src/algorithms/sorting/mergeSort.js)
   - [Quick Sort](/src/algorithms/sorting/quickSort.js)
-  - TODO: Radix Sort
+  - [Radix Sort](/src/algorithms/sorting/radixSort.js)
   - [Selection Sort](/src/algorithms/sorting/selectionSort.js)
   - [Shell Sort](/src/algorithms/sorting/shellSort.js)
 
