@@ -49,20 +49,20 @@ This repository maintained by [Nick Scialli](https://twitter.com/nas5w) and powe
 
 ## Patterns
 
-- [Observer](https://github.com/nas5w/javascript-patterns/blob/master/src/patterns/behavioral/observer.js)
-- [Revealing Module](https://github.com/nas5w/javascript-patterns/blob/master/src/patterns/structural/revealing-module.js)
-- [Singleton](https://github.com/nas5w/javascript-patterns/blob/master/src/patterns/creational/singleton.js)
-- [Builder](https://github.com/nas5w/javascript-patterns/blob/master/src/patterns/creational/builder.js)
-- [Factory](https://github.com/nas5w/javascript-patterns/blob/master/src/patterns/factory.js)
-- [Adapter](https://github.com/nas5w/javascript-patterns/blob/master/src/patterns/structural/adapter/adapter.js)
-- [Bridge](https://github.com/nas5w/javascript-patterns/blob/master/src/patterns/structural/bridge.js)
-- [Decorator](https://github.com/nas5w/javascript-patterns/blob/master/src/patterns/structural/decorator.js)
-- [Flyweight](https://github.com/nas5w/javascript-patterns/blob/master/src/patterns/flyweight.js)
-- [Proxy](https://github.com/nas5w/javascript-patterns/blob/master/src/patterns/proxy.js)
-- TODO: Facade
+- [Observer](/src/patterns/behavioral/observer.js)
+- [Revealing Module](/src/patterns/structural/revealing-module.js)
+- [Singleton](/src/patterns/creational/singleton.js)
+- [Builder](/src/patterns/creational/builder.js)
+- [Factory](/src/patterns/factory.js)
+- [Adapter](/src/patterns/structural/adapter/adapter.js)
+- [Bridge](/src/patterns/structural/bridge.js)
+- [Decorator](/src/patterns/structural/decorator.js)
+- [Flyweight](/src/patterns/flyweight.js)
+- [Proxy](/src/patterns/proxy.js)
+- [Facade](/src/patterns/facade.js)
 - TODO: Mixin
 - TODO: Prototype
-- [Strategy](https://github.com/nas5w/javascript-patterns/blob/master/src/patterns/behavioral/strategy.js)
+- [Strategy](/src/patterns/behavioral/strategy.js)
 
 ## Techniques
 
@@ -70,7 +70,7 @@ This repository maintained by [Nick Scialli](https://twitter.com/nas5w) and powe
 
 ## Data Structures
 
-- [Linked List](https://github.com/nas5w/javascript-patterns/blob/master/src/dataStructures/linkedList.js)
+- [Linked List](/src/dataStructures/linkedList.js)
 - TODO: Doubly Linked List
 - TODO: Stack
 - [Queue](/src/dataStructures/queue.js)
@@ -81,7 +81,7 @@ This repository maintained by [Nick Scialli](https://twitter.com/nas5w) and powe
 - TODO: Tree
 - TODO: Graph
 - TODO: Disjoint Set
-- [Binary Search Tree](https://github.com/nas5w/javascript-patterns/blob/master/src/dataStructures/binarySearchTree.js)
+- [Binary Search Tree](/src/dataStructures/binarySearchTree.js)
 
 # Contributing
 
