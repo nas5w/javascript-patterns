@@ -21,7 +21,8 @@ function exponentialSearch(list, itemToFind) {
   }
   
   if(bound < list.length) {
-    return binarySearch(list.slice(0,bound), itemToFind);
+    // element can only between bound/2 and bound indices
+    return binarySearch(list.slice(bound / 2 ,bound), itemToFind);
   }
 
   return false;
