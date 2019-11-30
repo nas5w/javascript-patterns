@@ -70,11 +70,11 @@ class Heap {
 
 	}
 
-	getTop() {
+	peek() {
 
 	}
 
-	peek() {
+	getTop() {
 
 	}
 
