@@ -11,9 +11,8 @@ class Heap {
 	 * @param {Number} i2
      * @returns {void}
      */
-	constructor(size = 15) {
-		this._storage = new Array(size + 1); // 'size' items and one shift item to make calculations easier
-		this._sizeCounter = 3; // size = 2^this._sizeCounter - 1
+	constructor() {
+		this._storage = new Array(1);
 		this._last = null; // points to the last item in the heap
 	}
 
@@ -35,7 +34,7 @@ class Heap {
      * @returns {void}
      */
 	_rise(index) {
-		if (index === 1) { return; } // base case
+		if (index === 1) { return; } // base case : top item
 		const parentIndex = Math.floor(index/2); // child items are 2*index and 2*index + 1
 		// swap if < for max heap, > for min heap
 		if (this._storage[parentIndex] < this._storage[index]) {
@@ -60,10 +59,6 @@ class Heap {
 
 	isFull() {
 
-	}
-
-	increaseSize() {
-		this._storage = new Array(Math.pow(2, ++this._sizeCounter));
 	}
 
 	getTop() {
