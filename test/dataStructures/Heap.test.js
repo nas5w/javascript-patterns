@@ -10,15 +10,15 @@ describe('Heap constructor', () => {
 describe('Heap public method isEmpty', () => {
 	it('should return true if no items in Heap', () => {
 		const heap = new Heap();
-		expect(heap.isEmpty()).toBeTrue();
+		expect(heap.isEmpty()).toBe(true);
 	});
 
 	it('should return false if one or more items in Heap', () => {
 		const heap = new Heap();
 		heap._storage[1] = 1;
-		expect(heap.isEmpty()).toBeFalse();
+		expect(heap.isEmpty()).toBe(false);
 		heap._storage[2] = 1;
-		expect(heap.isEmpty()).toBeFalse();
+		expect(heap.isEmpty()).toBe(false);
 	});
 });
 
