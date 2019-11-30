@@ -13,8 +13,9 @@ class Heap {
      * @returns {void}
      */
 	constructor() {
-		this._storage = new Array(1);
-		this._last = null; // points to the last item in the heap
+		Object.defineProperty(this, '_storage', {
+			value: new Array(1)
+		});
 	}
 
 	/**
