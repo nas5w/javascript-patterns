@@ -69,6 +69,25 @@ describe('Heap public method count', () => {
 	});
 });
 
+describe('Heap public method push', () => {
+	it('should increase the number of items in the Heap', () => {
+		const heap = new Heap();
+		expect(heap.length).toBe(0);
+		heap.push(1);
+		expect(heap.length).toBe(1);
+	});
+
+	it('should add items in the correct position', () => {
+		const heap = new Heap();
+		heap.push(1);
+		expect(heap._storage).toEqual([undefined, 1]);
+		heap.push(2);
+		expect(heap._storage).toEqual([undefined, 2, 1]);
+		heap.push(3);
+		expect(heap._storage).toEqual([undefined, 3, 1, 2])
+	});
+});
+
 describe('Heap private method rise', () => {
 	it('should not move top item', () => {
 		const heap = new Heap();

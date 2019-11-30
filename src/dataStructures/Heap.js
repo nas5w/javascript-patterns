@@ -107,8 +107,14 @@ class Heap {
 		return top;
 	}
 
+	/**
+     * Adds an item to the Heap.
+	 *
+     * @returns {void}
+     */
 	push(item) {
-
+		this._storage.push(item);
+		this._rise(this._storage.length-1);
 	}
 }
 
