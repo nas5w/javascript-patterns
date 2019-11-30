@@ -28,3 +28,23 @@ describe('Heap private method rise', () => {
 		expect(heap._storage).toEqual([undefined, 3, 1, 2]);
 	});
 });
+
+describe('Heap private method fall', () => {
+	it('should not move items in the correct position', () => {
+		const heap = new Heap();
+		heap._storage[1] = 4;
+		heap._storage[2] = 2;
+		heap._storage[3] = 3;
+		heap._fall(1);
+		expect(heap._storage).toEqual([undefined, 4, 2, 3]);
+	});
+
+	it('should move small items down', () => {
+		const heap = new Heap();
+		heap._storage[1] = 1;
+		heap._storage[2] = 2;
+		heap._storage[3] = 3;
+		heap._fall(1);
+		expect(heap._storage).toEqual([undefined, 3, 2, 1]);
+	});
+});
