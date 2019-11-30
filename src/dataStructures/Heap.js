@@ -6,11 +6,38 @@ class Heap {
 		this._isMax = isMax; // Max Heap or Min Heap
 	}
 
-	_rise(item_index) {
-
+	/**
+     * Swaps items
+	 *
+     * @param {Number} i1
+	 * @param {Number} i2
+     * @returns {void}
+     */
+	_swap(i1, i2) {
+		[this._storage[i1], this._storage[i2]] = [this._storage[i2], this._storage[i1]];
 	}
 
-	_fall(item_index) {
+    /**
+     * Moves item up the heap to the correct position
+	 *
+     * @param {Number} index
+     * @returns {void}
+     */
+	_rise(index) {
+		while (index > 1) {
+			let parentIndex = Math.floor(index/2); // child items are 2*index and 2*index + 1
+			// swap if < for max heap, > for min heap
+			if (
+				(this._isMax && this._storage[parentIndex] < this._storage[index]) // max heap
+				|| (!this._isMax && this._storage[parentIndex] > this._storage[index]) // min heap
+			) {
+				this._swap(parentIndex, index)
+			}
+			index = parentIndex;
+		}
+	}
+
+	_fall(index) {
 
 	}
 
