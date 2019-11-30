@@ -83,8 +83,19 @@ class Heap {
 		return this._storage[1];
 	}
 
-	getTop() {
-
+	/**
+     * Returns and removes the top item in Heap.
+	 *
+	 * If the Heap is empty, returns undefined.
+	 *
+     * @returns {Number}
+     */
+	getMax() {
+		if (this.isEmpty()) { return; }
+		this._swap(1, this._storage.length-1); // swap top item and last item
+		const top = this._storage.pop();
+		this._fall(1);
+		return top;
 	}
 
 	push(item) {

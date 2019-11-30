@@ -37,6 +37,23 @@ describe('Heap public method peek', () => {
 	});
 });
 
+describe('Heap public method getMax', () => {
+	it('should return undefined if Heap is empty', () => {
+		const heap = new Heap();
+		expect(heap.getMax()).toBeUndefined();
+	});
+
+	it('should return and remove the top item', () => {
+		const heap = new Heap();
+		heap._storage[1] = 3;
+		heap._storage[2] = 2;
+		heap._storage[3] = 1;
+		const top = heap.getMax();
+		expect(top).toBe(3);
+		expect(heap._storage).toEqual([undefined, 2, 1]);
+	});
+});
+
 describe('Heap private method rise', () => {
 	it('should not move top item', () => {
 		const heap = new Heap();
