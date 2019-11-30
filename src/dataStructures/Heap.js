@@ -1,17 +1,17 @@
 class Heap {
-    /**
-     * Constructor for Heap data structure.
-	 *
-	 * This is a max Heap supported by an Array. This can be modified into a min Heap
-	 * by swapping the item comparisons. The Heap is intended for Number items, but can be
-	 * modified for any item.
-	 *
-	 * @class
-	 *
-     * @param {Number} i1
-	 * @param {Number} i2
-     * @returns {void}
-     */
+	/**
+	  * Constructor for Heap data structure.
+	  *
+	  * This is a max Heap supported by an Array. This can be modified into a min Heap
+	  * by swapping the item comparisons. The Heap is intended for Number items, but can be
+	  * modified for any item.
+	  *
+	  * @class
+	  *
+	  * @param {Number} i1
+	  * @param {Number} i2
+	  * @returns {void}
+	  */
 	constructor() {
 		Object.defineProperty(this, '_storage', {
 			value: new Array(1)
@@ -19,31 +19,31 @@ class Heap {
 	}
 
 	/**
-     * Returns number of items in Heap.
-	 *
-     * @returns {Number}
-     */
+	  * Returns number of items in Heap.
+	  *
+	  * @returns {Number}
+	  */
 	get length() {
 		return this._storage.length-1;
 	}
 
 	/**
-     * Swaps items.
-	 *
-     * @param {Number} i1
-	 * @param {Number} i2
-     * @returns {void}
-     */
+	  * Swaps items.
+	  *
+	  * @param {Number} i1
+	  * @param {Number} i2
+	  * @returns {void}
+	  */
 	_swap(i1, i2) {
 		[this._storage[i1], this._storage[i2]] = [this._storage[i2], this._storage[i1]];
 	}
 
-    /**
-     * Moves item up the heap to the correct position.
-	 *
-     * @param {Number} index
-     * @returns {void}
-     */
+	/**
+	  * Moves item up the heap to the correct position.
+	  *
+	  * @param {Number} index
+	  * @returns {void}
+	  */
 	_rise(index) {
 		if (index === 1) { return; } // base case: top item
 		const parentIndex = Math.floor(index/2); // child items are 2*index and 2*index + 1
@@ -55,11 +55,11 @@ class Heap {
 	}
 
 	/**
-     * Moves item down the heap to the correct position.
-	 *
-     * @param {Number} index
-     * @returns {void}
-     */
+	  * Moves item down the heap to the correct position.
+	  *
+	  * @param {Number} index
+	  * @returns {void}
+	  */
 	_fall(index) {
 		if (2*index >= this._storage.length) { return; } // base case: no children
 		const childIndex = 2*index+1 >= this._storage.length ?
@@ -74,32 +74,32 @@ class Heap {
 	}
 
 	/**
-     * Returns true if there are no items in the Heap, otherwise false.
-	 *
-     * @returns {Boolean}
-     */
+	  * Returns true if there are no items in the Heap, otherwise false.
+	  *
+	  * @returns {Boolean}
+	  */
 	isEmpty() {
 		return this._storage.length === 1;
 	}
 
 	/**
-     * Returns the top item in Heap.
-	 *
-	 * If the Heap is empty, returns undefined.
-	 *
-     * @returns {Number}
-     */
+	  * Returns the top item in Heap.
+	  *
+	  * If the Heap is empty, returns undefined.
+	  *
+	  * @returns {Number}
+	  */
 	peek() {
 		return this._storage[1];
 	}
 
 	/**
-     * Returns and removes the top item in Heap.
-	 *
-	 * If the Heap is empty, returns undefined.
-	 *
-     * @returns {Number}
-     */
+	  * Returns and removes the top item in Heap.
+	  *
+	  * If the Heap is empty, returns undefined.
+	  *
+	  * @returns {Number}
+	  */
 	getMax() {
 		if (this.isEmpty()) { return; }
 		this._swap(1, this._storage.length-1); // swap top item and last item
@@ -109,10 +109,10 @@ class Heap {
 	}
 
 	/**
-     * Adds an item to the Heap.
-	 *
-     * @returns {void}
-     */
+	  * Adds an item to the Heap.
+	  *
+	  * @returns {void}
+	  */
 	push(item) {
 		this._storage.push(item);
 		this._rise(this._storage.length-1);
