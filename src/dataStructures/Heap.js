@@ -1,4 +1,16 @@
 class Heap {
+    /**
+     * Constructor for Heap data structure.
+	 *
+	 * This is a max Heap supported by an Array. This can be modified into a min Heap
+	 * by changing '>' to '<' and '<' to '>'.
+	 *
+	 * @class
+	 *
+     * @param {Number} i1
+	 * @param {Number} i2
+     * @returns {void}
+     */
 	constructor(size = 15) {
 		this._storage = new Array(size + 1); // 'size' items and one shift item to make calculations easier
 		this._sizeCounter = 3; // size = 2^this._sizeCounter - 1
@@ -23,13 +35,12 @@ class Heap {
      * @returns {void}
      */
 	_rise(index) {
-		while (index > 1) {
-			const parentIndex = Math.floor(index/2); // child items are 2*index and 2*index + 1
-			// swap if < for max heap, > for min heap
-			if (this._storage[parentIndex] < this._storage[index]) {
-				this._swap(parentIndex, index)
-			}
-			index = parentIndex;
+		if (index === 1) { return; } // base case
+		const parentIndex = Math.floor(index/2); // child items are 2*index and 2*index + 1
+		// swap if < for max heap, > for min heap
+		if (this._storage[parentIndex] < this._storage[index]) {
+			this._swap(parentIndex, index);
+			this._rise(parentIndex);
 		}
 	}
 
@@ -40,11 +51,7 @@ class Heap {
      * @returns {void}
      */
 	_fall(index) {
-		while (index < this._storage.length) {
-			const c1 = 2*index; // left child
-			const c2 = 2*index + 1; // right child
-			let childIndex;
-		}
+
 	}
 
 	isEmpty() {
