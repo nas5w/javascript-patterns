@@ -1,9 +1,39 @@
 const Heap = require('../../src/dataStructures/Heap');
 
-describe('Heap data structure', () => {
-	it('should have empty heap when instantiated', () => {
+describe('Heap constructor', () => {
+	it('should create empty Heap', () => {
 		const heap = new Heap();
 		expect(heap._storage).toEqual([undefined]);
+	});
+});
+
+describe('Heap public method isEmpty', () => {
+	it('should return true if no items in Heap', () => {
+		const heap = new Heap();
+		expect(heap.isEmpty()).toBeTrue();
+	});
+
+	it('should return false if one or more items in Heap', () => {
+		const heap = new Heap();
+		heap._storage[1] = 1;
+		expect(heap.isEmpty()).toBeFalse();
+		heap._storage[2] = 1;
+		expect(heap.isEmpty()).toBeFalse();
+	});
+});
+
+describe('Heap public method peek', () => {
+	it('should return undefined if Heap is empty', () => {
+		const heap = new Heap();
+		expect(heap.peek()).toBeUndefined();
+	});
+
+	it('should return the top item', () => {
+		const heap = new Heap();
+		heap._storage[1] = 1;
+		heap._storage[2] = 2;
+		heap._storage[3] = 3;
+		expect(heap.peek()).toBe(1);
 	});
 });
 

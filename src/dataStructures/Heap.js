@@ -3,7 +3,8 @@ class Heap {
      * Constructor for Heap data structure.
 	 *
 	 * This is a max Heap supported by an Array. This can be modified into a min Heap
-	 * by swapping the item comparisons.
+	 * by swapping the item comparisons. The Heap is intended for Number items, but can be
+	 * modified for any item.
 	 *
 	 * @class
 	 *
@@ -62,16 +63,24 @@ class Heap {
 		}
 	}
 
+	/**
+     * Returns true if there are no items in the Heap, otherwise false.
+	 *
+     * @returns {Boolean}
+     */
 	isEmpty() {
-
+		return this._storage.length === 1;
 	}
 
-	isFull() {
-
-	}
-
+	/**
+     * Returns the top item in Heap.
+	 *
+	 * If the Heap is empty, returns undefined.
+	 *
+     * @returns {Number}
+     */
 	peek() {
-
+		return this._storage[1];
 	}
 
 	getTop() {
