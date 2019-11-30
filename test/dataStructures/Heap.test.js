@@ -54,6 +54,21 @@ describe('Heap public method getMax', () => {
 	});
 });
 
+describe('Heap public method count', () => {
+	it('should return 0 for no items', () => {
+		const heap = new Heap();
+		expect(heap.length).toBe(0);
+	});
+
+	it('should return the number of items in Heap', () => {
+		const heap = new Heap();
+		heap._storage[1] = 2;
+		expect(heap.length).toBe(1);
+		heap._storage[2] = 1;
+		expect(heap.length).toBe(2);
+	});
+});
+
 describe('Heap private method rise', () => {
 	it('should not move top item', () => {
 		const heap = new Heap();

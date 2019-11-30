@@ -18,6 +18,15 @@ class Heap {
 	}
 
 	/**
+     * Returns number of items in Heap.
+	 *
+     * @returns {Number}
+     */
+	get length() {
+		return this._storage.length-1;
+	}
+
+	/**
      * Swaps items.
 	 *
      * @param {Number} i1
