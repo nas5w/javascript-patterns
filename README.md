@@ -72,14 +72,13 @@ This repository maintained by [Nick Scialli](https://twitter.com/nas5w) and powe
 
 - [Linked List](/src/dataStructures/linkedList.js)
 - TODO: Doubly Linked List
-- TODO: Stack
+- [Stack](/src/dataStructures/Stack.js)
 - [Queue](/src/dataStructures/queue.js)
-- TODO: Binary Tree
 - [Graph](/src/dataStructures/graph.js)
 - [Hash Table](/src/dataStructures/hashTable.js)
 - TODO: Heap
 - TODO: Tree
-- TODO: Graph
+- TODO: Binary Tree
 - TODO: Disjoint Set
 - [Binary Search Tree](/src/dataStructures/binarySearchTree.js)
 
