@@ -61,7 +61,7 @@ This repository maintained by [Nick Scialli](https://twitter.com/nas5w) and powe
 - [Proxy](/src/patterns/proxy.js)
 - [Facade](/src/patterns/facade.js)
 - TODO: Mixin
-- TODO: Prototype
+- [Prototype](/src/patterns/prototype.js)
 - [Strategy](/src/patterns/behavioral/strategy.js)
 
 ## Techniques
