@@ -16,7 +16,6 @@
   "rules": {
     "eqeqeq": "off",
     "curly": "error",
-    "quotes": ["error", "single"],
-    "allowImplicit": true
+    "quotes": ["error", "single"]
   }
 }

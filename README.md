@@ -77,7 +77,7 @@ This repository maintained by [Nick Scialli](https://twitter.com/nas5w) and powe
 - TODO: Binary Tree
 - [Graph](/src/dataStructures/graph.js)
 - [Hash Table](/src/dataStructures/hashTable.js)
-- TODO: Heap
+- [Heap](/src/dataStructures/Heap.js)
 - TODO: Tree
 - TODO: Graph
 - TODO: Disjoint Set
